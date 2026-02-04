@@ -1039,7 +1039,7 @@ section {
 .footer {
   background: #000;
   color: #fff;
-  padding: 80px 20px 40px;
+  padding: 100px 20px 60px;
 }
 
 .footer-container {
@@ -1050,20 +1050,21 @@ section {
 .footer-grid {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  gap: 50px;
+  gap: 60px;
   margin-bottom: 50px;
 }
 
 /* Brand */
 .footer-logo {
-  width: 100px;
+  width: 110px;
   margin-bottom: 20px;
 }
 
 .footer-brand p {
   color: #aaa;
-  line-height: 1.6;
+  line-height: 1.8;
   max-width: 420px;
+  font-size: 15px;
 }
 
 /* Socials */
@@ -1108,7 +1109,7 @@ section {
 
 .footer ul a {
   text-decoration: none;
-  color: #aaa;
+  color: #d1d1d1;
   transition: 0.3s;
 }
 
@@ -1118,13 +1119,13 @@ section {
 
 /* Bottom */
 .footer-bottom {
-  border-top: 1px solid #222;
+  border-top: 1px solid #555;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
-  color: #888;
+  color: #999;
   font-size: 14px;
 }
 
